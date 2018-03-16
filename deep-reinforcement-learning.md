@@ -1,8 +1,6 @@
 # Deep Reinforcement Learning
 
--------------------------------
-
-
+---
 
 Main referred learning resources:
 
@@ -12,5 +10,7 @@ Main referred learning resources:
 
 ---
 
-The differences between
+The differences between Q-learning and policy gradient:
+
+
 
