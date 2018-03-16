@@ -4,9 +4,21 @@
 
 Main referred learning resources:
 
+###### Blogs
+
 > [https://medium.com/emergent-future](https://medium.com/emergent-future)
 >
 > [https://ai.intel.com/demystifying-deep-reinforcement-learning/](https://ai.intel.com/demystifying-deep-reinforcement-learning/)
+
+##### Slides
+
+> http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html
+
+##### Online Videos
+
+> http://videolectures.net/rldm2015\_silver\_reinforcement\_learning/
+>
+> http://videolectures.net/deeplearning2017\_pineau\_reinforcement\_learning/
 
 ---
 
