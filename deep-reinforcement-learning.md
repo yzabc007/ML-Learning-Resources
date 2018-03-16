@@ -57,13 +57,33 @@ function Q\(s, a\) representing **themaximum discounted future rewardwhen we per
 
 ![](/assets/bellman_4.png)
 
-the best possible score at the end of the gameafter performing action a** in state **s
+the best possible score at the end of the gameafter performing action a** in state **s
 
 **It is called Q-function, because it represents the “quality” of a certain action in a given state.**
 
 maximum future reward for \(this state and action\) is the immediate reward plus **maximum future reward for the next state**.
 
-------
+---
 
+DQN
+
+![](/assets/dqn_loss.png)
+
+Algorithm:
+
+Given a transition &lt; s, a, r, s’ &gt;, the Q-table update rule in the previous algorithm must be replaced with the following:
+
+1. Do a feedforward pass for the current state s to get predicted Q-values for all actions.
+2. Do a feedforward pass for the next state s’ and calculate maximum overall network outputs max a’ Q\(s’, a’\).
+3. Set Q-value target for action to r + γmax a’ Q\(s’, a’\) \(use the max calculated in step 2\). For all other actions, set the Q-value target to the same as originally returned from step 1, making the error 0 for those outputs.
+4. Update the weights using backpropagation.
+
+**Experience Replay:**
+
+1. This breaks the similarity of subsequent training samples, which otherwise might drive the network into a local minimum.
+2. Also experience replay makes the training task more similar to usual supervised learning, which simplifies debugging and testing the algorithm.
+3. One could actually collect all those experiences from human gameplay and then train network on these.
+
+  
 
 
