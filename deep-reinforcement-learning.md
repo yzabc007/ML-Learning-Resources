@@ -12,9 +12,9 @@ Main referred learning resources:
 
 The differences between Q-learning and policy gradient:
 
-| Policy gradient |  |
+| Policy gradient | Attempts to learn functions which directly map on observation to an action |
 | :--- | :--- |
-| Q -learning |  |
+| Q -learning | Attempts to learn the value of being in a given state, and taking a specific action there |
 
 Characteristics of RL problem:
 
@@ -71,11 +71,11 @@ DQN
 
 Algorithm:
 
-Given a transition &lt; s, a, r, s’ &gt;, the Q-table update rule in the previous algorithm must be replaced with the following:
+Given a transition &lt; s, a, r, s’ &gt;, the Q-table update rule in the previous algorithm must be replaced with the following:
 
-1. Do a feedforward pass for the current state s to get predicted Q-values for all actions.
-2. Do a feedforward pass for the next state s’ and calculate maximum overall network outputs max a’ Q\(s’, a’\).
-3. Set Q-value target for action to r + γmax a’ Q\(s’, a’\) \(use the max calculated in step 2\). For all other actions, set the Q-value target to the same as originally returned from step 1, making the error 0 for those outputs.
+1. Do a feedforward pass for the current state s to get predicted Q-values for all actions.
+2. Do a feedforward pass for the next state s’ and calculate maximum overall network outputs max a’ Q\(s’, a’\).
+3. Set Q-value target for action to r + γmax a’ Q\(s’, a’\) \(use the max calculated in step 2\). For all other actions, set the Q-value target to the same as originally returned from step 1, making the error 0 for those outputs.
 4. Update the weights using backpropagation.
 
 **Experience Replay:**
@@ -84,6 +84,5 @@ Given a transition &lt; s, a, r, s’ &gt;, the Q-table update rule in the pre
 2. Also experience replay makes the training task more similar to usual supervised learning, which simplifies debugging and testing the algorithm.
 3. One could actually collect all those experiences from human gameplay and then train network on these.
 
-  
 
 
