@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [Deep Reinforcement Learning](deep-reinforcement-learning.md)
-  * e
+  * [e](deep-reinforcement-learning/e.md)
 
