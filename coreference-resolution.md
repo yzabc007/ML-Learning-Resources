@@ -29,13 +29,11 @@ Mention Detection
 
 Anaphora: 首语重复法
 
-* 某mention由其antecede
-
-Anaphora: 首语重复法
-
 * 某mention由其antecedent决定
 
+Bridging anaphora
 
+* Not all anaphoric relations are coreferential
 
 
 
