@@ -12,7 +12,7 @@ Referred materials:
 
 Examples of why coreference resolution is difficulty:
 
-> She poured water from the pitcher into **the cup** until it was full
+> She poured water from the pitcher into **the cup** until **it** was full
 >
 > She poured water from the pitcher into the cup until it was empty
 >
