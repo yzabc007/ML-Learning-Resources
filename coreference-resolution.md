@@ -43,7 +43,7 @@ Mention Pair
 
 * Train a binary classifier that assigns every pair of menJons a probability of being coreferent: $$P\(m\_i, m\_j\)$$
 
-* Testing: Pick some threshold \(e.g., 0.5\) and add coreference links between mention pairs where $$P\(m_i, m_\_j\)$$ is above the threshold
+* Testing: Pick some threshold \(e.g., 0.5\) and add coreference links between mention pairs where $$P(m_i, m_j)$$ is above the threshold
 
 * Take the transitive closure to get the clustering
 
