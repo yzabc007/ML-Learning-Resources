@@ -1,4 +1,4 @@
-# $$x = y$$Coreference Resolution
+# Coreference Resolution
 
 ---
 
