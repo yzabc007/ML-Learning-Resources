@@ -41,5 +41,3 @@ Bridging anaphora
 
 
 
-
-
