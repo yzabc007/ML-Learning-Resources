@@ -41,7 +41,8 @@ Bridging anaphora
 
 Mention Pair
 
-* Train a binary classifier that assigns every pair of menJons a probability of being coreferent: 
+* Train a binary classifier that assigns every pair of menJons a probability of being coreferent: $$P\(m\__i, m\__j\)$$
+
 * Test: Pick some threshold \(e.g., 0.5\) and add coreference links between mention pairs where P\(mi, mj\) is above the threshold
 * Take the transitive closure to get the clustering
 
