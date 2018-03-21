@@ -14,5 +14,5 @@ Examples of why coreference resolution is difficulty:
 
 She poured water from the pitcher into the cup unJl it was full
 
-
+She poured water from the pitcher into the cup unJl it was empty
 
