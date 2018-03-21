@@ -24,3 +24,7 @@ Fully understanding above sentences can be seen as another form of Strong AI, le
 
 
 
+\[dd\]\(https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/WS.html\)
+
+
+
