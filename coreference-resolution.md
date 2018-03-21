@@ -12,7 +12,11 @@ Referred materials:
 
 Examples of why coreference resolution is difficulty:
 
-She poured water from the pitcher into the cup unJl it was full
+> She poured water from the pitcher into the cup unJl it was full
 
-She poured water from the pitcher into the cup unJl it was empty
+> She poured water from the pitcher into the cup unJl it was empty
+
+The trophy would not fit in the suitcase because it was too big.
+
+The trophy would not fit in the suitcase because it was too small.
 
