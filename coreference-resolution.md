@@ -20,5 +20,7 @@ Examples of why coreference resolution is difficulty:
 >
 > The trophy would not fit in **the suitcase** because **it** was too small.
 
-Fully understanding above sentences can be seen as another form of Strong AI, leading to the \[**Winograd Schema Challenge\] \(**[https://en.wikipedia.org/wiki/Winograd\_Schema\_Challenge\](https://en.wikipedia.org/wiki/Winograd_Schema_Challenge%29%29\)
+Fully understanding above sentences can be seen as another form of Strong AI, leading to the \[**Winograd Schema Challenge\] \(**[https://en.wikipedia.org/wiki/Winograd\_Schema\_Challenge\](https://en.wikipedia.org/wiki/Winograd_Schema_Challenge%29%29\)\)
+
+
 
