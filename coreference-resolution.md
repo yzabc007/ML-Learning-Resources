@@ -20,5 +20,5 @@ Examples of why coreference resolution is difficulty:
 >
 > The trophy would not fit in **the suitcase** because **it** was too small.
 
-
+Fully understanding above sentences can be seen as another form of Strong AI
 
