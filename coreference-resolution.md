@@ -22,3 +22,7 @@ Examples of why coreference resolution is difficulty:
 
 Fully understanding above sentences can be seen as another form of Strong AI, leading to the **Winograd Schema Challenge**
 
+
+
+
+
