@@ -25,7 +25,15 @@ Fully understanding above sentences can be seen as another form of Strong AI, le
 Mention Detection
 
 * Three types: pronouns, named entities, noun phrase
-* Hard =&gt; 
+* Hard =&gt; It is sunny; Every student; No student; The best donut in the world; 100 miles
+
+Anaphora: 首语重复法
+
+* 某mention由其antecede
+
+Anaphora: 首语重复法
+
+* 某mention由其antecedent决定
 
 
 
