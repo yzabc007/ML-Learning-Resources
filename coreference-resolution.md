@@ -35,5 +35,7 @@ Bridging anaphora
 
 * Not all anaphoric relations are coreferential
 
+---
+
 
 
