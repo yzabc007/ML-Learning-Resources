@@ -41,7 +41,7 @@ Bridging anaphora
 
 Mention Pair
 
-* Train a binary classifier that assigns every pair of menJons a probability of being coreferent: $$P(m\_i, m\_j\)$$
+* Train a binary classifier that assigns every pair of menJons a probability of being coreferent: $$P(m_i, m\_j\)$$
 
 * Testing: Pick some threshold \(e.g., 0.5\) and add coreference links between mention pairs where $$P(m_i, m_j)$$ is above the threshold
 
