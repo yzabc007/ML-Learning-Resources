@@ -10,8 +10,6 @@ Referred materials:
 
 ### Notes
 
-
-
 Examples of why coreference resolution is difficulty:
 
 > She poured water from the pitcher into **the cup** until **it** was full
@@ -24,5 +22,7 @@ Examples of why coreference resolution is difficulty:
 
 Fully understanding above sentences can be seen as another form of Strong AI, leading to the \[**Winograd Schema Challenge\] **[https://en.wikipedia.org/wiki/Winograd\_Schema\_Challenge](https://en.wikipedia.org/wiki/Winograd_Schema_Challenge%29%29%29%29%29%29%29\)
 
-dd
+
+
+Mention Detection
 
