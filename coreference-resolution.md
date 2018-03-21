@@ -19,7 +19,7 @@ Examples of why coreference resolution is difficulty:
 
 
 > The trophy would not fit in the suitcase because it was too big.
-
+>
 > The trophy would not fit in the suitcase because it was too small.
 
 
