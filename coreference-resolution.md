@@ -51,7 +51,8 @@ Mention Ranking
 
 * Assign each mention its highest scoring candidate antecedent according to the model
 * We want the current mention mj to be linked to any one of the candidate antecedents it’s coreferent with
-* $$x = y$$
+
+$$x = y$$
 
 
 
