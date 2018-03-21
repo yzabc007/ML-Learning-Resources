@@ -16,9 +16,9 @@ Examples of why coreference resolution is difficulty:
 >
 > She poured water from **the pitcher** into the cup until **it** was empty
 >
-> The trophy would not fit in the suitcase because it was too big.
+> **The trophy** would not fit in the suitcase because **it** was too big.
 >
-> The trophy would not fit in the suitcase because it was too small.
+> The trophy would not fit in **the suitcase** because **it** was too small.
 
 
 
