@@ -6,6 +6,9 @@ Referred materials:
 
 > [http://web.stanford.edu/class/cs224n/lectures/lecture13.pdf](http://web.stanford.edu/class/cs224n/lectures/lecture13.pdf)
 
+> Entity-centric coreference resolution with model stacking
+> Deep reinforcement learning for mention-ranking coreference models
+> Improving coreference resolution by learning entity-level distributed representations
 ---
 
 ### Notes
