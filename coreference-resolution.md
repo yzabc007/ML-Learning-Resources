@@ -9,7 +9,7 @@ Referred materials:
 > Entity-centric coreference resolution with model stacking
 > Deep reinforcement learning for mention-ranking coreference models
 > Improving coreference resolution by learning entity-level distributed representations
-
+> End-to-end Neural Coreference Resolution
 ---
 
 ### Notes
