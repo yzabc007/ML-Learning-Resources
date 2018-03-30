@@ -73,5 +73,9 @@ Then the bellman function comes up to estimate the Q function, aka., the maximum
 
 ![](/assets/algo_q_table_2.png)
 
+There are many tricky parts in the real algorithm and keep the following sentence from \_La la land\_ in mind:
+
+> a
+
 
 
