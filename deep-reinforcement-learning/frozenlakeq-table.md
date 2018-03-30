@@ -75,7 +75,7 @@ Multiple understandings of values stored in Q table:
 
 ##### Tambet Matiisen's algorithm
 
-![](/assets/algo_q_table_2.png)
+> ![](/assets/algo_q_table_2.png)
 
 There are many tricky parts in the real algorithm and keep the following sentence from **la la land** in mind:
 
