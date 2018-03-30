@@ -36,5 +36,5 @@ Reward: whether you can successfully reach the goal point or not; that's a delay
 
 #### Algorithm
 
-![](/assets/algo_q_table.png)
+![](/assets/algo_q_table.png)The 
 
