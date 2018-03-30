@@ -119,7 +119,7 @@ For the second metric, it's easily to understand that the higher the percentage,
 
 All in all, because of the simplicity of this task, we can plot the following figure to show the progress of learning.  
 
-<img src="/assets/frozenlake_res_1.png" width="100" height="10"/>
+<img src="/assets/frozenlake_res_1.png" style="width: 10px;"/>
 
 The blue points are the failing trails, the red points are the successful trails, and the green points are the unfinished trails within 100 steps. \(of course, we couldn't take the unfinished trails as failure, but we still want the agent to reach a failing or success point ASAP considering such a simple task.\)
 
