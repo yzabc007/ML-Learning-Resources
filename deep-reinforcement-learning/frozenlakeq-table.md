@@ -54,14 +54,12 @@ A good strategy for an agent would be to **always choose an action that maximize
 
 Multiple understandings of  Q table:
 
-1. The value stored in Q table could be considered as the **maximum discounted future reward** for choosing current action on current state.  The point is that 
+1. The value stored in Q table could be considered as the **maximum discounted future reward** for choosing current action in current state.  The point is that  
 2. the best possible score at the end of the game after performing current action on current state.
 
 **It is called Q-function, because it represents the “quality” of a certain action in a given state.**
 
 ![](/assets/bellman_4.png)
-
-
 
 ![](/assets/algo_q_table.png)![](/assets/algo_q_table_2.png)
 
