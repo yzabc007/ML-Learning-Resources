@@ -92,7 +92,9 @@ For example:
 
 #### Evaluation
 
-After implementing the simple algorithm, the last question may be how do we evaluate the algorithm. 
+After implementing the simple algorithm, the last question may be how do we evaluate the algorithm. A bad news is that there may not be deterministic metrics, such as accuracy, loss, etc to tell you how good or bad of the algorithm. The questions we should ask are how would we evaluate a learning algorithm when the algorithm is still learning. A simple answer would be how fast the algorithm successfully learn something or does it learn something.
+
+
 
 
 
