@@ -5,3 +5,5 @@
 ---
 
 The environment is a simple game from *OpenAI* named _Frozen Lake_. 
+
+It's a 
