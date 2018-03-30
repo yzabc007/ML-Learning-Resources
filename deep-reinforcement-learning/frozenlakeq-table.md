@@ -52,7 +52,7 @@ A good strategy for an agent would be to **always choose an action that maximize
 
 ![](/assets/bellman_3.png)
 
-$R\_{t+1}$ is 
+$$R_{t+1}$$ is discounted future reward for all possible actions.
 
 Multiple understandings of values stored in Q table:
 
