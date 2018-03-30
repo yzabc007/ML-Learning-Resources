@@ -36,5 +36,13 @@ Reward: whether you can successfully reach the goal point or not; that's a delay
 
 #### Algorithm
 
-![](/assets/algo_q_table.png)The 
+![](/assets/algo_q_table.png)The meaning of the bellman function is explained well as follows:
+
+![](/assets/bellman_1.png)
+
+![](/assets/bellman_2.png)
+
+![](/assets/bellman_3.png)
+
+![](/assets/bellman_4.png)
 

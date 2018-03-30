@@ -12,13 +12,13 @@ Main referred learning resources:
 
 ##### Slides
 
-> http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html
+> [http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
 
 ##### Online Videos
 
-> http://videolectures.net/rldm2015\_silver\_reinforcement\_learning/
+> [http://videolectures.net/rldm2015\_silver\_reinforcement\_learning/](http://videolectures.net/rldm2015_silver_reinforcement_learning/)
 >
-> http://videolectures.net/deeplearning2017\_pineau\_reinforcement\_learning/
+> [http://videolectures.net/deeplearning2017\_pineau\_reinforcement\_learning/](http://videolectures.net/deeplearning2017_pineau_reinforcement_learning/)
 
 ---
 
@@ -63,7 +63,7 @@ Discounted Future Reward
 
 γ is the discount factor between 0 and 1 – the more into the future the reward is, the less we take it into consideration.
 
-function Q\(s, a\) representing **themaximum discounted future rewardwhen we perform action **a** in state **s**, and continue optimally from that point on.**
+function Q\(s, a\) representing **the maximum discounted future rewardwhen we perform action **a** in state **s**, and continue optimally from that point on.**
 
 ![](/assets/bellman_3.png)
 
