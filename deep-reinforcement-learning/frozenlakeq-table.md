@@ -121,9 +121,9 @@ All in all, because of the simplicity of this task, we can plot the following fi
 ![](/assets/frozenlake_res_1.png)  
 The blue points are the failing trails, the red points are the successful trails, and the green points are the unfinished trails within 100 steps. \(of course, we couldn't take the unfinished trails as failure, but we still want the agent to reach a failing or success point ASAP considering such a simple task.\)
 
-As we can see, at the beginning, the agent fails very often, while after about 200 iterations, it learns how to reach the goal successfully and the success ratio is pretty high. But note the success ratio is very unstable but the tendency of the progress of learning should be similar.
-![](/assets/Q_table.png)
-Here is the visualization of the Q table. As we can see, the position hole, 5, 7, 11, 12, are empty as well as the end point, 15. There are some intuitive values, e.g., in position 13, going right is more closer to the goal, while counterintuitive cases exist, like position 14, going up has high value. 
+As we can see, at the beginning, the agent fails very often, while after about 200 iterations, it learns how to reach the goal successfully and the success ratio is pretty high. But note the success ratio is very unstable but the tendency of the progress of learning should be similar.  
+![](/assets/Q_table.png)  
+Here is the visualization of the Q table. As we can see, the position hole, 5, 7, 11, 12, are empty as well as the end point, 15. There are some intuitive values, e.g., in position 13, going right is more closer to the goal, while counterintuitive cases exist, like position 14, going up has high value.
 
 ##### Parameters tuning
 
@@ -137,7 +137,12 @@ There are two main parameters to tune: learning rate and the discount factor.
 
 1. When the discount factor is 1:
    ![](/assets/frozenlake_res_2.png)
-   After learning hundreds of iterations, the agent is certain for it's 
+   After learning hundreds of iterations, the agent is certain for its action given one of states, thus it repeats in some positions and takes too many steps to finish. 
+2. When the discount factor is 0:
+   ![](/assets/frozenlake_res_3.png)
+   The agent makes decision only based on current/intermediate reward leading to learn nothing.
+3. When the learning rate it 1:
+   
 
 
 
