@@ -42,28 +42,28 @@ The meaning of the bellman function is explained well in the following blog:
 
 The reward of future is discounted by an exponential factor in the following equation and is transformed into the second equation, which is **the summation of current reward and a discounted reward of next state**.
 
-![](/assets/bellman_1.png)
+> ![](/assets/bellman_1.png)
 
-![](/assets/bellman_2.png)
+> ![](/assets/bellman_2.png)
 
-γ is the discount factor between 0 and 1 – the more into the future the reward is, the less we take it into consideration.
+> γ is the discount factor between 0 and 1 – the more into the future the reward is, the less we take it into consideration.
 
-A good strategy for an agent would be to **always choose an action that maximizes the \(discounted\) future reward.**
+> A good strategy for an agent would be to **always choose an action that maximizes the \(discounted\) future reward.**
 
-![](/assets/bellman_3.png)
+> ![](/assets/bellman_3.png)
 
 R\_{t+1} is discounted future reward for all possible actions.
 
 Multiple understandings of values stored in Q table:
 
 1. The value stored in Q table could be considered as the **maximum discounted future reward** for choosing current action in current state.
-2. the best possible score at the end of the game after performing current action on current state.
+2. > the best possible score at the end of the game after performing current action on current state.
 
-**It is called Q-function, because it represents the “quality” of a certain action in a given state.**
+> **It is called Q-function, because it represents the “quality” of a certain action in a given state.**
 
-Then the bellman function comes up to estimate the Q function, aka., the maximum future reward for current state is the sum of current reward \(immediate reward\) and the maximum future reward for the next state.
+> Then the bellman function comes up to estimate the Q function, aka., the maximum future reward for current state is the sum of current reward \(immediate reward\) and the maximum future reward for the next state.
 
-![](/assets/bellman_4.png)
+> ![](/assets/bellman_4.png)
 
 ---
 
@@ -129,7 +129,7 @@ There are two main parameters to tune: learning rate and the discount factor.
 
 1. The larger the learning rate is, the more you consider new value calculated by the bellman function, the less you consider old value from current Q table.
 2. The larger the discount factor, gamma, is, the more you consider the future reward, the less you consider the current/intermediate reward.
-   > If we set the discount factor _γ_=0, then our strategy will be short-sighted and we rely only on the immediate rewards. If we want to balance between immediate and future rewards, we should set discount factor to something like _γ= _0.9. If our environment is deterministic and the same actions always result in same rewards, then we can set discount factor _γ_=1.
+   > If we set the discount factor _γ_=0, then our strategy will be short-sighted and we rely only on the immediate rewards. If we want to balance between immediate and future rewards, we should set discount factor to something like _γ= \_0.9. If our environment is deterministic and the same actions always result in same rewards, then we can set discount factor _γ\_=1.
 
 
 
