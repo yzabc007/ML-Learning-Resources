@@ -92,9 +92,20 @@ For example:
 
 #### Evaluation
 
-After implementing the simple algorithm, the last question may be how do we evaluate the algorithm. A bad news is that there may not be deterministic metrics, such as accuracy, loss, etc to tell you how good or bad of the algorithm. The questions we should ask are how would we evaluate a learning algorithm when the algorithm is still learning. A simple answer would be how fast the algorithm successfully learn something or does it learn something.
+After implementing the simple algorithm, the last question may be how do we evaluate the algorithm. 
 
+A bad news is that there may not be deterministic metrics, such as accuracy, loss, etc to tell you how good or bad of the algorithm. 
 
+The question we should ask is that how could we evaluate a learning algorithm when the algorithm is still learning. 
+
+A simple answer would be how fast the algorithm successfully learn something or does it learn something.
+
+In this simple Q table experiments,  we use two metrics to evaluation the algorithm and tune the parameters.
+
+1. The number of steps each trial takes to end \(whether it fails to reach the goal or successfully make it\)
+2. The percentage of successful trails among all trails
+
+For the first metric, 
 
 
 
