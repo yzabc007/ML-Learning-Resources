@@ -121,3 +121,7 @@ All in all, because of the simplicity of this task, we can plot the following fi
 ![](/assets/frozenlake_res_1.png)  
 The blue points are the failing trails, the red points are the successful trails, and the green points are the unfinished trails within 100 steps. \(of course, we couldn't take the unfinished trails as failure, but we still want the agent to reach a failing or success point ASAP considering such a simple task.\)
 
+As we can see, at the beginning, the agent fails very often, while it learns how to reach the goal successfully and the success ratio is pretty high. 
+
+
+
