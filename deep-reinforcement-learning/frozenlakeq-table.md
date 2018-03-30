@@ -118,7 +118,9 @@ For the second metric, it's easily to understand that the higher the percentage,
 ##### Visualizing the results
 
 All in all, because of the simplicity of this task, we can plot the following figure to show the progress of learning.  
-![](/assets/frozenlake_res_1.png)  
+
+<img src="/assets/frozenlake_res_1.png" width="100" height="10"/>
+
 The blue points are the failing trails, the red points are the successful trails, and the green points are the unfinished trails within 100 steps. \(of course, we couldn't take the unfinished trails as failure, but we still want the agent to reach a failing or success point ASAP considering such a simple task.\)
 
 As we can see, at the beginning, the agent fails very often, while after about 200 iterations, it learns how to reach the goal successfully and the success ratio is pretty high. But note the success ratio is very unstable but the tendency of the progress of learning should be similar.
