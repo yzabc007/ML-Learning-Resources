@@ -91,7 +91,7 @@ For example:
 ---
 
 #### Evaluation
-
+##### Irrelevant thoughts
 After implementing the simple algorithm, the last question may be how do we evaluate the algorithm.
 
 A bad news is that there may not be deterministic metrics, such as accuracy, loss, etc to tell you how good or bad of the algorithm.
@@ -111,8 +111,11 @@ For the first metric, at the beginning, the agent may fall into the hole easily 
 
 For the second metric, it's easily to understand that the higher the percentage, the better the agent is.
 
-All in all, because of the simplicity of this task, we plot the following figure to show the progress of learning.![](/assets/frozenlake_res_1.png)  
+All in all, because of the simplicity of this task, we plot the following figure to show the progress of learning.  
+![](/assets/frozenlake_res_1.png)  
 The blue points are the failing trails, the red points are the successful trails, and the green points are the unfinished trails within 100 steps. \(of course, we couldn't take the unfinished trails as failure, but we still want the agent to reach a failing or success point ASAP considering such a simple task.\)
+
+
 
 
 
