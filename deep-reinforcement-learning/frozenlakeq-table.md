@@ -61,6 +61,8 @@ Multiple understandings of values stored in Q table:
 
 **It is called Q-function, because it represents the “quality” of a certain action in a given state.**
 
+Then the bellman function comes up to estimate the Q function
+
 ![](/assets/bellman_4.png)
 
 ![](/assets/algo_q_table.png)![](/assets/algo_q_table_2.png)
