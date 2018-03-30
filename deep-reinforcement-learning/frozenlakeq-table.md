@@ -67,9 +67,11 @@ Then the bellman function comes up to estimate the Q function, aka., the maximum
 
 ---
 
-#### Algorithm
+#### Algorithm for Q table learning
 
-![](/assets/algo_q_table.png)![](/assets/algo_q_table_2.png)
+![](/assets/algo_q_table.png)
+
+![](/assets/algo_q_table_2.png)
 
 
 
