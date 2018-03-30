@@ -13,4 +13,4 @@ FHFH       (F: frozen surface, safe)
 FFFH       (H: hole, fall to your doom)
 HFFG       (G: goal, where the frisbee is located)
 
-The purpose of the task is 
+The purpose of the task is walking from 
