@@ -123,6 +123,10 @@ The blue points are the failing trails, the red points are the successful trails
 
 As we can see, at the beginning, the agent fails very often, while after about 200 iterations, it learns how to reach the goal successfully and the success ratio is pretty high. But note the success ratio is very unstable but the tendency of the progress of learning should be similar.
 
+![](/assets/Q_table.png)
+
+Here is the visualization of the Q table. As we can see, the position hole, 
+
 ##### Parameters tuning
 
 There are two main parameters to tune: learning rate and the discount factor.
