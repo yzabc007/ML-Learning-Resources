@@ -48,9 +48,16 @@ The reward of future is discounted by a exponential factor in the following equa
 
 γ is the discount factor between 0 and 1 – the more into the future the reward is, the less we take it into consideration.
 
-A good strategy for an agent would be to **always choose an action that maximizes the \(discounted\) future reward.**
+A good strategy for an agent would be to **always choose an action that maximizes the \(discounted\) future reward **as follows:
 
 ![](/assets/bellman_3.png)
 
 ![](/assets/bellman_4.png)
+
+Multiple understanding Q table:
+
+1. The value stored in Q table could be considered as the future reward for choosing current action on current state. 
+2. the best possible score at the end of the game after performing current action on current state.
+
+
 
