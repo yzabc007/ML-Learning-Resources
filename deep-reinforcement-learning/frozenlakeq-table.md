@@ -4,6 +4,6 @@
 
 ---
 
-The environment is a simple game from *OpenAI* named [Frozen Lake] (https://gym.openai.com/envs/FrozenLake-v0/). 
+The environment is a simple game from *OpenAI* named [Frozen Lake](https://gym.openai.com/envs/FrozenLake-v0/). 
 
 It's a 
