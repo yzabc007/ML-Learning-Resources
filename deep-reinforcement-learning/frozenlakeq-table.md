@@ -15,4 +15,6 @@ HFFG       (G: goal, where the frisbee is located)
 
 The purpose of the task is walking from the starting point to the goal point and trying not to fall into the hole.
 
-The tricky part is that on the frozen surface, there could be some wind to push you in the direction that you don't want to go. That's how the 
+The tricky part is that on the frozen surface, there could be some wind to push you in the direction that you don't want to go. That's how the uncertain factor in the environment, otherwise, a simple search algorithm would successfully finish the task all the time.
+
+  
