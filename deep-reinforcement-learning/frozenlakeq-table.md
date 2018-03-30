@@ -34,7 +34,7 @@ Reward: whether you can successfully reach the goal point or not; that's a delay
 
 ---
 
-#### Algorithm
+#### Understanding of discounted future reward and the Q learning with table
 
 The meaning of the bellman function is explained well in the following blog:
 
@@ -61,9 +61,15 @@ Multiple understandings of values stored in Q table:
 
 **It is called Q-function, because it represents the “quality” of a certain action in a given state.**
 
-Then the bellman function comes up to estimate the Q function
+Then the bellman function comes up to estimate the Q function, aka., the maximum future reward for current state is the sum of current reward \(immediate reward\) and the maximum future reward for the next state.
 
 ![](/assets/bellman_4.png)
 
+---
+
+#### Algorithm
+
 ![](/assets/algo_q_table.png)![](/assets/algo_q_table_2.png)
+
+
 
