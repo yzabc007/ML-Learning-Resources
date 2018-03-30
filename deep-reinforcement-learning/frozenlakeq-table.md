@@ -36,11 +36,11 @@ Reward: whether you can successfully reach the goal point or not; that's a delay
 
 #### Algorithm
 
-The meaning of the bellman function is explained well as follows:
+The meaning of the bellman function is explained well in the following blog:
 
 > [https://ai.intel.com/demystifying-deep-reinforcement-learning/](https://ai.intel.com/demystifying-deep-reinforcement-learning/)
 
-The reward of future is discounted by a exponential factor in the following equation and is transformed into the second equation, which is **the summation of current reward and a discounted reward of next state**.
+The reward of future is discounted by an exponential factor in the following equation and is transformed into the second equation, which is **the summation of current reward and a discounted reward of next state**.
 
 ![](/assets/bellman_1.png)
 
@@ -48,20 +48,20 @@ The reward of future is discounted by a exponential factor in the following equa
 
 γ is the discount factor between 0 and 1 – the more into the future the reward is, the less we take it into consideration.
 
-A good strategy for an agent would be to **always choose an action that maximizes the \(discounted\) future reward **as follows:
+A good strategy for an agent would be to **always choose an action that maximizes the \(discounted\) future reward.**
 
 ![](/assets/bellman_3.png)
 
-Multiple understanding Q table:
+Multiple understandings of  Q table:
 
-1. The value stored in Q table could be considered as the future reward for choosing current action on current state. 
+1. The value stored in Q table could be considered as the **maximum discounted future reward** for choosing current action on current state.  The point is that 
 2. the best possible score at the end of the game after performing current action on current state.
 
 **It is called Q-function, because it represents the “quality” of a certain action in a given state.**
 
 ![](/assets/bellman_4.png)
 
+
+
 ![](/assets/algo_q_table.png)![](/assets/algo_q_table_2.png)
-
-
 
