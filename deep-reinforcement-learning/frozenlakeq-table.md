@@ -9,9 +9,12 @@ The environment is a simple game from [OpenAI](https://gym.openai.com/docs/) nam
 
 It's a 4*4 grid as follows:
 
-SFFF       (S: starting point, safe) \\
+SFFF       (S: starting point, safe)
+
 FHFH       (F: frozen surface, safe)
+
 FFFH       (H: hole, fall to your doom)
+
 HFFG       (G: goal, where the frisbee is located)
 
 The purpose of the task is walking from the starting point to the goal point and trying not to fall into the hole.
