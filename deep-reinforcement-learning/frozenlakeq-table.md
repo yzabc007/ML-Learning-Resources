@@ -1,1 +1,1 @@
-# Q Learning by Q table
+# Q Learning with table
