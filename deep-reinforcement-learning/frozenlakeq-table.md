@@ -4,6 +4,7 @@
 
 ---
 #### Introduction of the environment
+
 The environment is a simple game from [OpenAI](https://gym.openai.com/docs/) named [Frozen Lake](https://gym.openai.com/envs/FrozenLake-v0/). 
 
 It's a 4*4 grid as follows:
