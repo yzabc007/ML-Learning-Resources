@@ -105,7 +105,7 @@ In this simple Q table experiments,  we use two metrics to evaluation the algori
 1. The number of steps each trial takes to end \(whether it fails to reach the goal or successfully make it\)
 2. The percentage of successful trails among all trails
 
-For the first metric, at the beginning, the agent may fall into the hole easily because the underestimate of the environment, thus it would take less steps to finish one trial; after the learning, the agent is supposed to take longer time to finish the trail or longer time to stay on the frozen surface. 
+For the first metric, at the beginning, the agent may fall into the hole easily because of the underestimate of the environment, thus it would take less steps to finish one trial; after the learning, the agent is supposed to take longer time to finish the trail or longer time to stay on the frozen surface.
 
 Note the maximum number of steps is 100 and when your agent takes 100 steps, the end flag will be True set by the environment and it's actually not good because we expect the agent take as less as possible steps to reach the goal.
 
