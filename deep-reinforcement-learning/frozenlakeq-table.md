@@ -52,12 +52,12 @@ A good strategy for an agent would be to **always choose an action that maximize
 
 ![](/assets/bellman_3.png)
 
-![](/assets/bellman_4.png)
-
 Multiple understanding Q table:
 
 1. The value stored in Q table could be considered as the future reward for choosing current action on current state. 
 2. the best possible score at the end of the game after performing current action on current state.
+
+![](/assets/bellman_4.png)
 
 
 
