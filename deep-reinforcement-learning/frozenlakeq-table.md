@@ -48,6 +48,8 @@ The reward of future is discounted by a exponential factor in the following equa
 
 γ is the discount factor between 0 and 1 – the more into the future the reward is, the less we take it into consideration.
 
+A good strategy for an agent would be to **always choose an action that maximizes the \(discounted\) future reward.**
+
 ![](/assets/bellman_3.png)
 
 ![](/assets/bellman_4.png)
