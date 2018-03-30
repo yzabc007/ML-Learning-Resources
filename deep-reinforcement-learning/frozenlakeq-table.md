@@ -69,13 +69,17 @@ Then the bellman function comes up to estimate the Q function, aka., the maximum
 
 #### Algorithm for Q table learning
 
-![](/assets/algo_q_table.png)
+##### My algorithm![](/assets/algo_q_table.png)
+
+##### ![](/assets/algo_q_table.png)
+
+##### ![](/assets/algo_q_table.png)
 
 ![](/assets/algo_q_table_2.png)
 
-There are many tricky parts in the real algorithm and keep the following sentence from \_La la land\_ in mind:
+There are many tricky parts in the real algorithm and keep the following sentence from **la la land** in mind:
 
-> a
+> a bit of madness is key, to give us new colors to see ...
 
-
+If we strictly follow the above algorithm process, we would confine ourselves in some kind of local optimal points. As a result, we need to add some randomness/uncertainty 
 
