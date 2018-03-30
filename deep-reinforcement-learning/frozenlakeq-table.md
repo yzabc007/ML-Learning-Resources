@@ -38,13 +38,15 @@ Reward: whether you can successfully reach the goal point or not; that's a delay
 
 ![](/assets/algo_q_table.png)The meaning of the bellman function is explained well as follows:
 
+> https://ai.intel.com/demystifying-deep-reinforcement-learning/
+
 The reward of future is discounted by a exponential factor in the following equation and is transformed into the second equation, which is the summation of current reward and a discounted reward of next state.
 
 ![](/assets/bellman_1.png)
 
 ![](/assets/bellman_2.png)
 
-
+γ is the discount factor between 0 and 1 – the more into the future the reward is, the less we take it into consideration.
 
 ![](/assets/bellman_3.png)
 
