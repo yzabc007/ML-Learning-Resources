@@ -141,8 +141,9 @@ There are two main parameters to tune: learning rate and the discount factor.
 2. When the discount factor is 0:
    ![](/assets/frozenlake_res_3.png)
    The agent makes decision only based on current/intermediate reward leading to learn nothing.
-3. When the learning rate it 1:
-   
-
-
+3. When the learning rate is 1:
+   ![](/assets/frozenlake_res_4.png)
+   The agent updates Q values only relying on the bellman function and abandons the previous value.
+4. When the learning rate is 0:
+   ![](/assets/frozenlake_res_4.png) 
 
