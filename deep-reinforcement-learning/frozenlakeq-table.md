@@ -4,4 +4,4 @@
 
 ---
 
-By using a simple environment of 
+By using a simple environment of *OpenAI* named **Frozen Lake**
