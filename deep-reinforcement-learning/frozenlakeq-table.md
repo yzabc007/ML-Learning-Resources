@@ -10,13 +10,13 @@ The environment is a simple game from [OpenAI](https://gym.openai.com/docs/) nam
 
 It's a 4\*4 grid as follows:
 
-SFFF       \(S: starting point, safe\)
-
-FHFH       \(F: frozen surface, safe\)
-
-FFFH       \(H: hole, fall to your doom\)
-
-HFFG       \(G: goal, where the frisbee is located\)
+> SFFF       \(S: starting point, safe\)
+>
+> FHFH       \(F: frozen surface, safe\)
+>
+> FFFH       \(H: hole, fall to your doom\)
+>
+> HFFG       \(G: goal, where the frisbee is located\)
 
 The purpose of the task is walking from the starting point to the goal point and trying not to fall into the hole.
 
@@ -43,13 +43,13 @@ The meaning of the bellman function is explained well in the following blog:
 The reward of future is discounted by an exponential factor in the following equation and is transformed into the second equation, which is **the summation of current reward and a discounted reward of next state**.
 
 > ![](/assets/bellman_1.png)
-
+>
 > ![](/assets/bellman_2.png)
-
+>
 > γ is the discount factor between 0 and 1 – the more into the future the reward is, the less we take it into consideration.
-
+>
 > A good strategy for an agent would be to **always choose an action that maximizes the \(discounted\) future reward.**
-
+>
 > ![](/assets/bellman_3.png)
 
 R\_{t+1} is discounted future reward for all possible actions.
@@ -60,9 +60,9 @@ Multiple understandings of values stored in Q table:
 2. > the best possible score at the end of the game after performing current action on current state.
 
 > **It is called Q-function, because it represents the “quality” of a certain action in a given state.**
-
+>
 > Then the bellman function comes up to estimate the Q function, aka., the maximum future reward for current state is the sum of current reward \(immediate reward\) and the maximum future reward for the next state.
-
+>
 > ![](/assets/bellman_4.png)
 
 ---
