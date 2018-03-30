@@ -52,7 +52,7 @@ A good strategy for an agent would be to **always choose an action that maximize
 
 ![](/assets/bellman_3.png)
 
-R_{t+1} is discounted future reward for all possible actions.
+R\_{t+1} is discounted future reward for all possible actions.
 
 Multiple understandings of values stored in Q table:
 
@@ -87,6 +87,12 @@ For example:
 
 1. By using a learning rate, we decide not to fully update the Q value by bellman function but to change the value based on its previous value
 2. When greedily choosing the best action based on current Q table, it's not necessary to choose the best one all the time.
-3. 
+
+---
+
+#### Evaluation
+
+After implementing the simple algorithm, the last question may be how do we evaluate the algorithm. 
+
 
 
