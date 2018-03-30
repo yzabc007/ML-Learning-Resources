@@ -118,7 +118,7 @@ For the second metric, it's easily to understand that the higher the percentage,
 ##### Visualizing the results
 
 All in all, because of the simplicity of this task, we can plot the following figure to show the progress of learning.  
-![](/assets/frozenlake_res_1.png)
+![](/assets/frozenlake_res_1.png)  
 The blue points are the failing trails, the red points are the successful trails, and the green points are the unfinished trails within 100 steps. \(of course, we couldn't take the unfinished trails as failure, but we still want the agent to reach a failing or success point ASAP considering such a simple task.\)
 
 As we can see, at the beginning, the agent fails very often, while after about 200 iterations, it learns how to reach the goal successfully and the success ratio is pretty high. But note the success ratio is very unstable but the tendency of the progress of learning should be similar.
@@ -131,9 +131,13 @@ There are two main parameters to tune: learning rate and the discount factor.
 2. The larger the discount factor, gamma, is, the more you consider the future reward, the less you consider the current/intermediate reward.
    > If we set the discount factor _γ_=0, then our strategy will be short-sighted and we rely only on the immediate rewards. If we want to balance between immediate and future rewards, we should set discount factor to something like _γ=0.9. If our environment is deterministic and the same actions always result in same rewards, then we can set discount factor _γ=1.
 
+##### ![](/assets/Q_table.png)
+
 ##### Some interesting results
 
-
+1. When the discount factor is 1:
+   ![](/assets/frozenlake_res_2.png)
+   After learning hundreds of iterations, the agent is certain for it's 
 
 
 
