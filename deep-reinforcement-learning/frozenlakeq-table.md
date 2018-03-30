@@ -70,10 +70,10 @@ Then the bellman function comes up to estimate the Q function, aka., the maximum
 #### Algorithm for Q table learning
 
 ##### My algorithm
+
 ![](/assets/algo_q_table.png)
 
 ##### Tambet Matiisen's algorithm
-![](/assets/algo_q_table.png)
 
 ![](/assets/algo_q_table_2.png)
 
@@ -81,5 +81,12 @@ There are many tricky parts in the real algorithm and keep the following sentenc
 
 > a bit of madness is key, to give us new colors to see ...
 
-If we strictly follow the above algorithm process, we would confine ourselves in some kind of local optimal points. As a result, we need to add some randomness/uncertainty 
+If we strictly follow the above algorithm process, we would confine ourselves in some kind of local optimal points. As a result, we need to add some randomness/uncertainty in the process.
+
+For example:
+
+1. By using a learning rate, we decide not to fully update the Q value by bellman function but to change the value based on its previous value
+2. When greedily choosing the best action based on current Q table, it's not necessary to choose the best one all the time.
+3. 
+
 
