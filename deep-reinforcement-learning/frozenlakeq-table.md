@@ -22,3 +22,4 @@ The tricky part is that on the frozen surface, there could be some wind to push 
 #### Basic elements of RL
 
 state: one of the 16 position on the grid
+action: four actions, up, down, left, right (not consider the boundary)
