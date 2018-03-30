@@ -36,8 +36,6 @@ Reward: whether you can successfully reach the goal point or not; that's a delay
 
 #### Algorithm
 
-![](/assets/algo_q_table.png)![](/assets/algo_q_table_2.png)
-
 The meaning of the bellman function is explained well as follows:
 
 > [https://ai.intel.com/demystifying-deep-reinforcement-learning/](https://ai.intel.com/demystifying-deep-reinforcement-learning/)
@@ -61,7 +59,9 @@ Multiple understanding Q table:
 
 **It is called Q-function, because it represents the “quality” of a certain action in a given state.**
 
-
-
 ![](/assets/bellman_4.png)
+
+![](/assets/algo_q_table.png)![](/assets/algo_q_table_2.png)
+
+
 
