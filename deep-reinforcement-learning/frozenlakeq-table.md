@@ -32,6 +32,3 @@ Reward: whether you can successfully reach the goal point or not; that's a delay
 
 ---
 #### Algorithm
-$$
-
-$$
