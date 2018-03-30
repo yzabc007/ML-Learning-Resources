@@ -100,6 +100,7 @@ The question we should ask is that how could we evaluate a learning algorithm wh
 
 A simple answer would be how fast the algorithm successfully learn something or does it learn something.
 
+##### Simple Metrics for this task
 In this simple Q table experiments,  we use two metrics to evaluation the algorithm and tune the parameters.
 
 1. The number of steps each trial takes to end \(whether it fails to reach the goal or successfully make it\)
