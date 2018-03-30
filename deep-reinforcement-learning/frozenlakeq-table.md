@@ -26,4 +26,5 @@ The tricky part is that on the frozen surface, there could be some wind to push 
 
 state: one of the 16 position on the grid
 action: four actions, up, down, left, right (not consider the boundary, the agent will automatically learn it)
-reward: whether you can successfully reach the goal point or not
+reward: whether you can successfully reach the goal point or not; that's a delayed reward. In the process of walking, there is no intermediate reward for each step. 
+
