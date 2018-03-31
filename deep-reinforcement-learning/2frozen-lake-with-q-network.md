@@ -12,7 +12,7 @@ Instead of storing Q values in a table, in this note, we would like to use a sim
 
 In the Frozen Lake game, the input is one of 16 states, the outputs are 4 Q values for each action. The neural network would be a simple FC network.
 
-Specifically, the input would be a one hot vector for 16 states, the output would be a 4-dimension vector representing predicted Q value for each action, the ground-truth is the real Q value for current action calculated by the bellman function. The loss function is the square loss between 
+Specifically, the input would be a one hot vector for 16 states, the output would be a 4-dimension vector representing predicted Q value for each action, the ground-truth is the real Q value for current action calculated by the bellman function. The loss function is the square loss between predicted Q value vector and the golden Q value vector with an 
 
 There are some tricks for building the network:
 
