@@ -24,7 +24,7 @@ There are some tricks for building the network:
 
 It turns out a simple single FC layer performs worse than Q table algorithm.
 
-
+![](/assets/frozenlake_q_tf_1.png)
 
 The Q network needs more iterations to learn and the final performance is not as good as Q table.
 
