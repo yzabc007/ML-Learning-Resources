@@ -20,5 +20,9 @@ Well, it may sound like it's the same algorithm for both of them after real unde
 
 1. The action chosen by Policy-based could be continuous, while the action chosen by Value-based can only be discrete.
 
+---
+
+### Two armed bandit
+
 
 
