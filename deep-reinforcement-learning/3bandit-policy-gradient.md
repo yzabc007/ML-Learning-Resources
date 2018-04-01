@@ -22,13 +22,13 @@ Well, it may sound like it's the same algorithm for both of them after real unde
 
 ---
 
-### Two armed bandit
+### Four armed bandit
 
 > Two slot machines, each with a different fixed payout probability.
 >
 > The goal is to discover the machine with the best payout, and maximize the returned reward by always choosing it.
 
-The basic principle is that when receiving a reward by tanking an action given a state, we increase the probability for taking this action when encounter a similar context \(maybe not the same state?\).
+The basic principle is that when receiving a reward by tanking an action given a state, we want to increase the probability according to the reward for taking this action when encounter a similar context \(maybe not the same state?\).
 
-
+In the game of 
 
