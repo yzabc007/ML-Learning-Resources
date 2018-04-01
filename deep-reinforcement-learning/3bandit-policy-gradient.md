@@ -24,7 +24,7 @@ The basic principle is that when receiving a reward by tanking an action given a
 
 ---
 
-### Four armed bandits
+### Multi-armed bandits
 
 > Two slot machines, each with a different fixed payout probability.
 >
@@ -53,8 +53,6 @@ The input of the policy network is the actual selected action, the output is the
 ---
 
 #### Contextual Bandits
-
-
 
 
 
