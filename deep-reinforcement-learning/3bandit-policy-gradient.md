@@ -26,7 +26,7 @@ The basic principle is that when receiving a reward by tanking an action given a
 
 ### Multi-armed bandits
 
-![](https://cdn-images-1.medium.com/max/742/1*Tt8A6mP98ibBlrlFD5UJxg.png)
+![](https://cdn-images1.medium.com/max/742/1*Tt8A6mP98ibBlrlFD5UJxg.png)
 
 > Two slot machines, each with a different fixed payout probability.
 >
