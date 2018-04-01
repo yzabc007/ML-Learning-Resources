@@ -16,5 +16,5 @@ Differences between Policy-based and Value-based:
 
 > 1. Policy-based learns a policy for picking optimal actions in a given state directly, while Value-based learns to predict how good a given state or action will be for the agent to be in.
 
-Well, it may sound like it's the same algorithm for both of them after real understanding the sentence, because the Policy-based still needs to choose the best action based on some values. So what's the real difference between two of them? 
+Well, it may sound like it's the same algorithm for both of them after real understanding the sentence, because the Policy-based still needs to choose the best action based on some values. So what's the real difference between two of them? There are 
 
