@@ -14,11 +14,6 @@ In the Frozen Lake game, the input is one of 16 states, the outputs are 4 Q valu
 
 Specifically, the input would be a one hot vector for 16 states, the output would be a 4-dimension vector representing predicted Q value for each action, the ground-truth is the real Q value for current action calculated by the bellman function. The loss function is the square loss between predicted Q value vector and the golden Q value vector with an
 
-There are some tricks for building the network:
-
-1. The predicted Q values are positive, so the initialization of weights should be positive
-2. The architecture of the network is very tricky. The best one is a single 
-
 ---
 
 ##### Results:
@@ -26,4 +21,17 @@ There are some tricks for building the network:
 It turns out a simple single FC layer performs worse than Q table algorithm.![](/assets/frozen_q_tf_1.png)
 
 The Q network needs more iterations to learn and the final performance is not as good as Q table. The success ratio on the last 100 iterations is 0.51, which is close to Q table algorithm.
+
+---
+
+##### Tricks
+
+There are some tricks for building the network:
+
+1. The predicted Q values are positive, so the initialization of weights should be positive
+2. The architecture of the network is very tricky. The best one is a single 
+
+---
+
+
 
