@@ -30,3 +30,5 @@ Well, it may sound like it's the same algorithm for both of them after real unde
 
 The basic principle is that when receiving a reward by tanking an action given a state, we increase the probability for taking this action when encounter a similar context \(maybe not the same state?\).
 
+
+
