@@ -16,7 +16,7 @@ Reviewing three characteristics of traditional RL:
 >
 > * At any time in an MDP, an agent is given a state`s`, takes action`a`, and receives new state`s’`and reward`r`.
 
-The [Cart Pole](https://gym.openai.com/envs/CartPole-v0/) game is a
+The [Cart Pole](https://gym.openai.com/envs/CartPole-v0/) game aims to hold the balance of a Pole 
 
 ---
 
