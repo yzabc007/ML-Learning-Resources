@@ -28,5 +28,5 @@ Well, it may sound like it's the same algorithm for both of them after real unde
 >
 > The goal is to discover the machine with the best payout, and maximize the returned reward by always choosing it.
 
-The basic principle is that when receiving a reward 
+The basic principle is that when receiving a reward, 
 
