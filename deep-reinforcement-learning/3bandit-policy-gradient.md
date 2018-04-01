@@ -38,7 +38,7 @@ This simple game only satisfies the 1 first characteristic for traditional RL an
 
 * The environment of the bandit problem is uncertain, that is, when pulling the bandit \(take an action\), the reward is not guaranteed. In supervised learning, the label/reward is obtained certainly for the input.
 
-In our policy network, we define 4 weights for 4 bandits to direct the probability of pulling this bandit to get a reward. Then we choose the largest one as the action currently.
+In our policy network, we define 4 weights for 4 bandits to direct the probability of pulling this bandit to get a reward. Then we choose the largest one as the action currently. 
 
 The input of the policy network is the actual selected action, the output is the positive/negative reward. The loss function is the policy loss equation:
 
@@ -64,7 +64,8 @@ The above simple bandit problem doesn't satisfies the three characteristic of tr
 >
 > * The states are independent.
 
-The contextual bandits problem still doesn't satisfies the three characteristic of tranditional RL.
-![](https://cdn-images-1.medium.com/max/1600/1*3NziBtrANN6UVltplxwaGA.png)
+The contextual bandits problem still doesn't satisfies the three characteristic of tranditional RL.  
+![](https://cdn-images-1.medium.com/max/1600/1*3NziBtrANN6UVltplxwaGA.png)Multiple bandits, each has multiple arms. The agent needs to learn the state \(which bandit to choose\) to decide the action \(which arm to pull\) and get the reward. Notice, the reward is still not delayed by is returned immediately.
 
+Policy network. Define an agent with one single layer with a two-dimension weights representing the likelihood to choose actions for states. The policy gradient method directly optimize the weight to choose a correct action for getting positive reward.
 
