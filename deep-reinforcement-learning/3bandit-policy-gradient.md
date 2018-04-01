@@ -34,5 +34,13 @@ In the game of four armed bandit, each bandit has a probability to get the rewar
 
 In our policy network, we define 4 weights for 4 bandits to direct the probability of pulling this bandit to get a reward. Then we choose the largest one as the action currently.
 
-The input of the policy network is the actual selected action, the output is the positive/negative reward. 
+The input of the policy network is the actual selected action, the output is the positive/negative reward. The loss function is the policy loss equation:
+
+> Loss = -log\(π\)\*A
+>
+> `A`is advantage, and is an essential aspect of all reinforcement learning algorithms.
+>
+> `π`is the policy. In this case, it corresponds to the chosen action’s weight.
+
+
 
