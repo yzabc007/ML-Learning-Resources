@@ -24,9 +24,9 @@ Environment:
 >
 > The episode ends when the pole is more than 15 degrees from vertical, or the cart moves more than 2.4 units from the center.
 
+Goal:
+
 > CartPole-v0 defines "solving" as getting average reward of 195.0 over 100 consecutive trials.
-
-
 
 ---
 
