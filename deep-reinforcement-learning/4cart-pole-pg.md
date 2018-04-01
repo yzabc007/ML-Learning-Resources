@@ -10,5 +10,9 @@ Reviewing three characteristics of traditional RL:
 > 2. Rewards are delayed over time
 > 3. Reward for an action is conditional on the state of the environment.
 
-The Cart Pole game 
+> MDP
+>
+> * At any time in an MDP, an agent is given a state`s`, takes action`a`, and receives new state`s’`and reward`r`.
+
+
 
