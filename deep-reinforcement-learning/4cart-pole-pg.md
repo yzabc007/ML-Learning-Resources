@@ -18,10 +18,16 @@ Reviewing three characteristics of traditional RL:
 
 The [Cart Pole](https://gym.openai.com/envs/CartPole-v0/) game aims to hold the balance of a Pole as long as possible.
 
-Environment:
+State:
+
+Action:
+
+Reward:
 
 > A reward of +1 is provided for every timestep that the pole remains upright.
->
+
+Environment:
+
 > The episode ends when the pole is more than 15 degrees from vertical, or the cart moves more than 2.4 units from the center.
 
 Goal:
