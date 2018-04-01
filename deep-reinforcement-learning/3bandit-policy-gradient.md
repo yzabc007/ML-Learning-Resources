@@ -64,5 +64,7 @@ The above simple bandit problem doesn't satisfies the three characteristic of tr
 >
 > * The states are independent.
 
+The contextual bandits problem still doesn't satisfies the three characteristic of tranditional RL.
+
 
 
