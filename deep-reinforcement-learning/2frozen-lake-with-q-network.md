@@ -17,7 +17,7 @@ Specifically, the input would be a one hot vector for 16 states, the output woul
 There are some tricks for building the network:
 
 1. The predicted Q values are positive, so the initialization of weights should be positive
-2. The architecture of the network is 
+2. The architecture of the network is very tricky. The best one is a single 
 
 ---
 
