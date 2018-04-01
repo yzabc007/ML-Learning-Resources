@@ -32,7 +32,7 @@ The basic principle is that when receiving a reward by tanking an action given a
 
 In the game of four armed bandit, each bandit has a probability to get the reward, and the goal of the agent is to choose the most likely one to get reward.
 
-This simple game only satisfies the 1 first characteristic for traditional RL.
+This simple game only satisfies the 1 first characteristic for traditional RL and could be confused with supervised learning. 
 
 In our policy network, we define 4 weights for 4 bandits to direct the probability of pulling this bandit to get a reward. Then we choose the largest one as the action currently.
 
