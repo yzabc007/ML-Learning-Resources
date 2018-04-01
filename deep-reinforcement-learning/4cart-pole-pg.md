@@ -20,9 +20,13 @@ The [Cart Pole](https://gym.openai.com/envs/CartPole-v0/) game aims to hold the 
 
 State:
 
+> The agent needs to know where pole currently is, and the angle at which it is balancing.
+
 Action:
 
-Reward:
+> The system is controlled by applying a force of +1 or -1 to the cart.
+
+Reward: 
 
 > A reward of +1 is provided for every timestep that the pole remains upright.
 
