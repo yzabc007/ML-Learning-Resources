@@ -30,5 +30,7 @@ Well, it may sound like it's the same algorithm for both of them after real unde
 
 The basic principle is that when receiving a reward by tanking an action given a state, we want to increase the probability according to the reward for taking this action when encounter a similar context \(maybe not the same state?\).
 
-In the game of four armed bandit, 
+In the game of four armed bandit, each bandit has a probability to get the reward, and the goal of the agent is to choose the most likely one to get reward.
+
+
 

@@ -35,7 +35,7 @@ There are some tricks for building the network:
    2. Add one more hidden state
    3. Add non-linearity
    4. Replace the one-hot input by a embedding layer
-4. epsilon
+4. e-greedy policy
 
 ---
 
