@@ -66,5 +66,3 @@ The above simple bandit problem doesn't satisfies the three characteristic of tr
 
 
 
-
-
