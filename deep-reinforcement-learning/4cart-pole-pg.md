@@ -18,7 +18,7 @@ Reviewing three characteristics of traditional RL:
 
 The [Cart Pole](https://gym.openai.com/envs/CartPole-v0/) game aims to hold the balance of a Pole as long as possible.
 
->
+> CartPole-v0 defines "solving" as getting average reward of 195.0 over 100 consecutive trials.
 
 ---
 
