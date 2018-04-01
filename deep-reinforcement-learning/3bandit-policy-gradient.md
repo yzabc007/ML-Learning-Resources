@@ -18,7 +18,8 @@ Differences between Policy-based and Value-based:
 
 Well, it may sound like it's the same algorithm for both of them after real understanding the sentence, because the Policy-based still needs to choose the best action based on some values. So what's the real difference between two of them? There are some explanations as follows:
 
-1. The action chosen by Policy-based could be continuous, while the action chosen by Value-based can only be discrete.
+1. **The action chosen by Policy-based could be continuous, while the action chosen by Value-based can only be discrete**
+2. * For example, 
 
 The basic principle is that when receiving a reward by tanking an action given a state, we want to increase the probability according to the reward for taking this action when encounter a similar context \(maybe not the same state?\).
 
@@ -38,7 +39,7 @@ This simple game only satisfies the 1 first characteristic for traditional RL an
 
 * The environment of the bandit problem is uncertain, that is, when pulling the bandit \(take an action\), the reward is not guaranteed. In supervised learning, the label/reward is obtained certainly for the input.
 
-In our policy network, we define 4 weights for 4 bandits to direct the probability of pulling this bandit to get a reward. Then we choose the largest one as the action currently. 
+In our policy network, we define 4 weights for 4 bandits to direct the probability of pulling this bandit to get a reward. Then we choose the largest one as the action currently.
 
 The input of the policy network is the actual selected action, the output is the positive/negative reward. The loss function is the policy loss equation:
 
