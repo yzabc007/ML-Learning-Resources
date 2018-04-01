@@ -40,6 +40,8 @@ The input of the policy network is the actual selected action, the output is the
 >
 > `A`is advantage, and is an essential aspect of all reinforcement learning algorithms.
 >
+> 1. Intuitively it corresponds to how much better an action was than some baseline.
+>
 > `π`is the policy. In this case, it corresponds to the chosen action’s weight.
 
 
