@@ -10,5 +10,5 @@ Reviewing three characteristics of traditional RL:
 > 2. Rewards are delayed over time
 > 3. Reward for an action is conditional on the state of the environment.
 
-
+The Cart Pole game 
 
