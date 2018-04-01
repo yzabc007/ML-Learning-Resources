@@ -56,7 +56,5 @@ The input of the policy network is the actual selected action, the output is the
 
 #### Contextual Bandits
 
-The above simple bandit problem doesn't satisfies the three characteristic of traditional RL. In \*\*Contextual Bandits\*\*
-
-
+The above simple bandit problem doesn't satisfies the three characteristic of traditional RL. In \*Contextual Bandits\*
 
