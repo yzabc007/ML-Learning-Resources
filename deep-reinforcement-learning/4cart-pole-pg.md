@@ -4,6 +4,8 @@
 
 ---
 
+##### Background
+
 Reviewing three characteristics of traditional RL:
 
 > 1. Different actions yield different rewards.
@@ -14,7 +16,7 @@ Reviewing three characteristics of traditional RL:
 >
 > * At any time in an MDP, an agent is given a state`s`, takes action`a`, and receives new state`s’`and reward`r`.
 
-
+The [Cart Pole](https://gym.openai.com/envs/CartPole-v0/) game is a
 
 ---
 
