@@ -56,5 +56,15 @@ The input of the policy network is the actual selected action, the output is the
 
 #### Contextual Bandits
 
-The above simple bandit problem doesn't satisfies the three characteristic of traditional RL. In \*Contextual Bandits\*
+The above simple bandit problem doesn't satisfies the three characteristic of traditional RL. In **Contextual Bandits** problem, we set multiple bandits with multiple arms. The reward of each action, pulling which arm, depends on state, which bandit to choose.
+
+> Without a given state state, the best action at any moment is also the best action always.
+>
+> There are states, but they aren’t determined by the previous states or actions.
+>
+> * The states are independent.
+
+
+
+
 
