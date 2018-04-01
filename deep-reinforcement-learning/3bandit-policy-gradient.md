@@ -20,6 +20,8 @@ Well, it may sound like it's the same algorithm for both of them after real unde
 
 1. The action chosen by Policy-based could be continuous, while the action chosen by Value-based can only be discrete.
 
+The basic principle is that when receiving a reward by tanking an action given a state, we want to increase the probability according to the reward for taking this action when encounter a similar context \(maybe not the same state?\).
+
 ---
 
 ### Four armed bandit
@@ -27,8 +29,6 @@ Well, it may sound like it's the same algorithm for both of them after real unde
 > Two slot machines, each with a different fixed payout probability.
 >
 > The goal is to discover the machine with the best payout, and maximize the returned reward by always choosing it.
-
-The basic principle is that when receiving a reward by tanking an action given a state, we want to increase the probability according to the reward for taking this action when encounter a similar context \(maybe not the same state?\).
 
 In the game of four armed bandit, each bandit has a probability to get the reward, and the goal of the agent is to choose the most likely one to get reward.
 
@@ -43,7 +43,7 @@ The input of the policy network is the actual selected action, the output is the
 > 1. Intuitively it corresponds to how much better an action was than some baseline.
 >
 > `π`is the policy. In this case, it corresponds to the chosen action’s weight.
-
+>
 > Intuitively, this loss function allows us to increase the weight for actions that yielded a positive reward, and decrease them for actions that yielded a negative reward. In this way the agent will be more or less likely to pick that action in the future.
 
 
