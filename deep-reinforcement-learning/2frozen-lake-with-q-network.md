@@ -29,7 +29,12 @@ The Q network needs more iterations to learn and the final performance is not as
 There are some tricks for building the network:
 
 1. The predicted Q values are positive, so the initialization of weights should be positive
-2. The architecture of the network is very tricky. The best one is a single 
+2. The architecture of the network is very tricky. The best one is a single FC layer without the bias, which is somehow counterintuitive.
+3. The architecture I have tried:
+   1. Add bias
+   2. Add one more hidden state
+   3. Add non-linearity
+   4. Replace the one-hot input by a embedding layer
 
 ---
 
