@@ -23,9 +23,7 @@ There are some tricks for building the network:
 
 ##### Results:
 
-It turns out a simple single FC layer performs worse than Q table algorithm.
+It turns out a simple single FC layer performs worse than Q table algorithm.![](/assets/frozen_q_tf_1.png)
 
-![](/assets/frozenlake_q_tf_1.png)
-
-The Q network needs more iterations to learn and the final performance is not as good as Q table.
+The Q network needs more iterations to learn and the final performance is not as good as Q table. The success ratio on the last 100 iterations is 0.51, which is close to Q table algorithm.
 
