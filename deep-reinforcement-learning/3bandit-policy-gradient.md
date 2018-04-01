@@ -44,5 +44,7 @@ The input of the policy network is the actual selected action, the output is the
 >
 > `π`is the policy. In this case, it corresponds to the chosen action’s weight.
 
+> Intuitively, this loss function allows us to increase the weight for actions that yielded a positive reward, and decrease them for actions that yielded a negative reward. In this way the agent will be more or less likely to pick that action in the future.
+
 
 
