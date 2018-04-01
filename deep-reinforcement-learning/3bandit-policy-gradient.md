@@ -28,6 +28,8 @@ The basic principle is that when receiving a reward by tanking an action given a
 
 ![](https://cdn-images-1.medium.com/max/742/1*Tt8A6mP98ibBlrlFD5UJxg.png)
 
+<img src="https://cdn-images-1.medium.com/max/742/1*Tt8A6mP98ibBlrlFD5UJxg.png" width="100">
+
 > Two slot machines, each with a different fixed payout probability.
 >
 > The goal is to discover the machine with the best payout, and maximize the returned reward by always choosing it.
