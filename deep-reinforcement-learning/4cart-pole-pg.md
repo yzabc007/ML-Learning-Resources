@@ -26,12 +26,10 @@ Action:
 
 > The system is controlled by applying a force of +1 or -1 to the cart.
 
-Reward: 
+Reward:
 
 > A reward of +1 is provided for every timestep that the pole remains upright.
-
-Environment:
-
+>
 > The episode ends when the pole is more than 15 degrees from vertical, or the cart moves more than 2.4 units from the center.
 
 Goal:
