@@ -4,13 +4,11 @@
 
 ---
 
-Review three characteristics of traditional RL:
+Reviewing three characteristics of traditional RL:
 
 > 1. Different actions yield different rewards.
 > 2. Rewards are delayed over time
 > 3. Reward for an action is conditional on the state of the environment.
-
-
 
 
 
