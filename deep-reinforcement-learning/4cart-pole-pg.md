@@ -9,10 +9,14 @@ Reviewing three characteristics of traditional RL:
 > 1. Different actions yield different rewards.
 > 2. Rewards are delayed over time
 > 3. Reward for an action is conditional on the state of the environment.
-
+>
 > MDP
 >
 > * At any time in an MDP, an agent is given a state`s`, takes action`a`, and receives new state`s’`and reward`r`.
 
 
+
+---
+
+![](https://morvanzhou.github.io/static/results/reinforcement-learning/5-1-1.png)
 
