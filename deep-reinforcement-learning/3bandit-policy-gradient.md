@@ -24,5 +24,5 @@ Well, it may sound like it's the same algorithm for both of them after real unde
 
 ### Two armed bandit
 
-Two slot machines, each with a different fixed payout probability
+Two slot machines, each with a different fixed payout probability.
 
