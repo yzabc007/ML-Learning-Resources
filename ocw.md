@@ -30,6 +30,7 @@ NLP
 
 CV
 > CSE 5524 Computer Vision for Human-Computer Interaction @ OSU, Jim Davis: http://web.cse.ohio-state.edu/~davis.1719/Teaching/5524/syllabus2017.htm
+
 > CS231n Convolutional Neural Networks for Visual Recognition @ Standford, Fei-Fei Li: http://cs231n.stanford.edu/2017/index.html
 
 Other
