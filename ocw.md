@@ -14,6 +14,8 @@ General ML and AI
 
 > Machine Learning @ CMU, Tom Mitchell, SP11: http://www.cs.cmu.edu/~tom/10701_sp11/
 
+> COMS W4995 Applied Machine Learning Spring 2018 @ Columbia University, SP18: http://www.cs.columbia.edu/~amueller/comsw4995s18/schedule/
+
 General DL
 > deeplearning.ai on Coursera: https://www.coursera.org/specializations/deep-learning
 
